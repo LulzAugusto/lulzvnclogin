@@ -4,7 +4,7 @@ require 'win32ole'
 require 'win32/registry'
 require 'gibberish'
 
-class VNC_Login
+class VNCLogin
   
   $cipher = Gibberish::AES.new("Your_key_here")
   $Enviroment = 'SOFTWARE\Lulz VNC Login'
@@ -69,4 +69,4 @@ class VNC_Login
   end
 end
 
-a = VNC_Login.new
+a = VNCLogin.new
