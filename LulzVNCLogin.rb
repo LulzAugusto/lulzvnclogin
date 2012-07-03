@@ -1,8 +1,5 @@
 #encoding: utf-8
 
-## Coder: @lulzaugusto
-## E-mail: luiz66@gmail.com
-
 require 'win32ole'
 require 'win32/registry'
 require 'gibberish'
